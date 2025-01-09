@@ -1,4 +1,4 @@
-import { motion, useMotionValue } from "framer-motion";
+import { motion, } from "framer-motion";
 import madara from "../assets/imagesTwo/madara.jpeg";
 import pain from "../assets/imagesTwo/pain.jpeg";
 import itachi from "../assets/imagesTwo/itachi.jpeg";
