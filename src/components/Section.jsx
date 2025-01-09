@@ -1,5 +1,5 @@
 
-import html from '../assets/imagesTwo/html.svg'
+import HTML from '../assets/imagesTwo/HTML.svg'
 import newcss from '../assets/imagesTwo/newcss.svg'
 import javascript from '../assets/imagesTwo/javascript.svg'
 import reactJs from '../assets/imagesTwo/reactJs.svg'
@@ -19,7 +19,7 @@ import npm  from '../assets/imagesTwo/NPM.svg'
 import postman from '../assets/imagesTwo/postman.svg';
 import vite from '../assets/imagesTwo/vite.svg';
 import nexjs from '../assets/imagesTwo/Nextjs.svg'
-import musciweb from '../assets/imagesTwo/musicweb.png'
+import musciweb from '../assets/imagesTwo/Musicweb.png'
 import currconv from '../assets/imagesTwo/currconv.png'
 import cloneProject from '../assets/imagesTwo/Project_Clone.png'
 // import mongodb from '../assets/imagesTwo/mongodb.svg'
@@ -53,7 +53,7 @@ const Section = () => {
     repeatType: "loop", // Smooth looping
   }}
 >
-  <img src={html} height={72} width={92} alt="HTML Logo" />
+  <img src={HTML} height={72} width={92} alt="HTML Logo" />
   <p className="pt-2 text-slate-200 text-lg md:text-xl">HTML</p>
 </motion.div>
 
