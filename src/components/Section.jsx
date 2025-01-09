@@ -1,7 +1,7 @@
-
 import HTML from '../assets/imagesTwo/HTML.svg'
 import newcss from '../assets/imagesTwo/newcss.svg'
 import javascript from '../assets/imagesTwo/javascript.svg'
+// import reactJs from '../assets/imagesTwo/reactJs.svg'
 import reactJs from '../assets/imagesTwo/reactJs.svg'
 import materialui from '../assets/imagesTwo/materialui.svg'
 import { motion } from 'motion/react'
