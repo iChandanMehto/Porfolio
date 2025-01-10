@@ -35,12 +35,12 @@ const Section = () => {
             Tools & Tech Stack
           </h2>
       </div>
-  <div className=" flex  flex-row justify-center items-center md:p-10   font-style">
+  <div className=" flex  flex-row justify-center items-center md:p-10 w-full   font-style">
 
-      <div className="grid grid-cols-1 md:grid-cols-1  w-full md:mx-32 shadow-md rounded-3xl">
-      <div className="relative overflow-hidden rounded-3xl border-[1px] border-slate-900  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+      <div className="grid grid-cols-1 md:grid-cols-1  w-full  items-center justify-centers shadow-md rounded-3xl">
+      <div className="relative  flex flex-wrap rounded-3xl border-[1px] border-slate-900  md:max-h-[57vh]  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
         <div className="flex flex-wrap  justify-center text-center align-middle  border-slate-900 rounded-3xl  text-white text-xl  shadow-lg  p-10    md:gap-60 items-center ">
-        <div className=" grid grid-cols-3  gap-8 md:flex md:flex-wrap md:gap-12 md:m-3 mt-5">
+        <div className=" grid grid-cols-3  gap-8 md:flex md:flex-wrap  md:gap-12 md:m-3 mt-5">
         <motion.div
   className="flex flex-col items-center justify-center"
   initial={{ y: 0 }}
