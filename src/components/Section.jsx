@@ -1,6 +1,7 @@
 import HTML from '../assets/imagesTwo/HTML.svg'
 import newcss from '../assets/imagesTwo/newcss.svg'
 import javascript from '../assets/imagesTwo/javascript.svg'
+import codedocs from '../assets/imagesTwo/codedocs.png'
 // import reactJs from '../assets/imagesTwo/reactJs.svg'
 import reactJs from '../assets/imagesTwo/reactJs.svg'
 import materialui from '../assets/imagesTwo/materialui.svg'
@@ -35,12 +36,12 @@ const Section = () => {
             Tools & Tech Stack
           </h2>
       </div>
-  <div className=" flex  flex-row justify-center items-center md:p-10   font-style">
+  <div className=" flex  flex-row justify-center items-center md:p-10 w-full   font-style">
 
-      <div className="grid grid-cols-1 md:grid-cols-1  w-full md:mx-32 shadow-md rounded-3xl">
-      <div className="relative overflow-hidden rounded-3xl border-[1px] border-slate-900  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+      <div className="grid grid-cols-1 md:grid-cols-1  w-full  items-center justify-centers shadow-md rounded-3xl">
+      <div className="relative  flex flex-wrap rounded-3xl border-[1px] border-slate-900  md::h-h-fit  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
         <div className="flex flex-wrap  justify-center text-center align-middle  border-slate-900 rounded-3xl  text-white text-xl  shadow-lg  p-10    md:gap-60 items-center ">
-        <div className=" grid grid-cols-3  gap-8 md:flex md:flex-wrap md:gap-12 md:m-3 mt-5">
+        <div className=" grid grid-cols-3  gap-8 md:flex md:flex-wrap md:items-center md:justify-center md:gap-14 md:m-3 md:ml-4 mt-5">
         <motion.div
   className="flex flex-col items-center justify-center"
   initial={{ y: 0 }}
@@ -361,8 +362,8 @@ const Section = () => {
           </h2>
       </div>
     <div className="flex  flex-col  md:flex-row lg:flex-row items-center justify-center  gap-3 md:gap-7 px-4" >
-    <div className="cursor-pointer group relative flex flex-col my-3  md:my-6 bg-black shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
-      <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl">
+    <div className="cursor-pointer md:h-[62vh] group relative flex flex-col my-3  md:my-6 bg-black shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
+      <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl ">
         <img
           className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110 h-full w-fit"
           
@@ -383,13 +384,13 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-          View
+           <a href="https://bitts-music-player.vercel.app/">Live</a>
         </button>
       </div>
     </div>
 
 
-    <div className="cursor-pointer group relative flex flex-col my-6  bg-black shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
+    <div className="cursor-pointer group relative flex flex-col my-6  bg-black shadow-sm md:h-[62vh] border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
       <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl">
         <img
           className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110 w-full h-full "
@@ -402,7 +403,7 @@ const Section = () => {
           Currency Converter
         </h6>
         <p className="text-slate-400 leading-normal font-light">
-        A Currency Converter Web Application. convert values between currencies with real-time exchange rates from reliable APIs, supporting multiple global currencies.
+        A Currency Converter Web App. convert values between currencies with real-time exchange rates from reliable APIs, supporting multiple global currencies.
         </p>
       </div>
       <div className="px-4 pb-4 pt-0 mt-2">
@@ -410,13 +411,13 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-<a href="https://currency-converter-omega-seven.vercel.app/">View</a>
+<a href="https://currency-converter-omega-seven.vercel.app/">Live</a>
         </button>
       </div>
     </div>
 
 
-    <div className="cursor-pointer group relative  flex flex-col my-6 bg-black shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
+    <div className="cursor-pointer group relative  flex flex-col my-6 bg-black md:h-[62vh] shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
       <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl">
         <img
           className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110 h-full w-full"
@@ -429,13 +430,12 @@ const Section = () => {
           Ai VoiceMaker Clone
         </h6>
         <p className="text-slate-400 leading-normal font-light">
-          We are thrilled to announce the completion of our seed round, securing
-          $2M in investment to fuel product development and market expansion.
+        Half clone of AI VoiceMaker. The purpose of making it is to improve my front-end skills and become familiar with the Next.js framework, using Shadcn UI library.
         </p>
       </div>
-      <div className="px-4 pb-4 pt-0 mt-2">
+      <div className="px-4 pb- pt-0 mt-2">
         <button
-          className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          className="rounded-md  bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
           Live
@@ -445,8 +445,8 @@ const Section = () => {
     <div className="cursor-pointer group relative   flex flex-col my-6 bg-black shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
       <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl">
         <img
-          className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110"
-          src="https://images.unsplash.com/photo-1496436818536-e239445d3327?q=80&w=1200"
+              className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110 h-full w-full"
+          src={codedocs}
           alt="investment-seed-round"
         />
       </div>
@@ -463,7 +463,7 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-        View
+        Live
         </button>
       </div>
     </div>

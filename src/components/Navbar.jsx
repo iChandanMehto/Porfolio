@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className='flex flex-shrink-0 items-start'>
        {/* <img className='mx-8 w-14' src={logo} alt="logo" /> */}
     </div>
-    <div className='md:m-8 m-6 flex items-center justify-center  gap-4 text-2xl '>
+    <div className='md:m-8 mx-3 my-6 flex items-center justify-center  gap-4 text-2xl '>
      
      <a href="https://github.com/Iamchandanmehto"><FaGithub/></a>
 
