@@ -24,12 +24,12 @@ variants={container(0 )}
 initial ="hidden"
 animate = "visible"
 
-className='md:pb-16 pb-8 text-slate-200 text-6xl md:text-6xl font-medium tracking-tight lg:mt-10 lg:text-8xl text-center '>Chandan Mehto</motion.h1>
+className='md:pb-16 px-4 pb-8 text-slate-200 text-6xl md:text-6xl font-medium tracking-tight lg:mt-10 lg:text-8xl text-center '>Chandan Mehto</motion.h1>
 <motion.span
 variants={container(0.5 )}
 initial ="hidden"
 animate = "visible"
- className='bg-gradient-to-r from-gray-100 via-slate-500 to-gray-600 bg-clip-text text-center text-5xl tracking-tight text-transparent'>
+ className='bg-gradient-to-r from-gray-100 via-slate-500 to-gray-600 bg-clip-text text-center px-4 text-5xl tracking-tight text-transparent'>
 Full Stack Developer</motion.span>
 <motion.p 
 variants={container(1)}

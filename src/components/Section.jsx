@@ -38,7 +38,7 @@ const Section = () => {
   <div className=" flex  flex-row justify-center items-center md:p-10 w-full   font-style">
 
       <div className="grid grid-cols-1 md:grid-cols-1  w-full  items-center justify-centers shadow-md rounded-3xl">
-      <div className="relative  flex flex-wrap rounded-3xl border-[1px] border-slate-900  md:max-h-[57vh]  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+      <div className="relative  flex flex-wrap rounded-3xl border-[1px] border-slate-900  md::h-h-fit  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
         <div className="flex flex-wrap  justify-center text-center align-middle  border-slate-900 rounded-3xl  text-white text-xl  shadow-lg  p-10    md:gap-60 items-center ">
         <div className=" grid grid-cols-3  gap-8 md:flex md:flex-wrap md:items-center md:justify-center md:gap-14 md:m-3 md:ml-4 mt-5">
         <motion.div
@@ -383,7 +383,7 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-          View
+          Live
         </button>
       </div>
     </div>
@@ -410,7 +410,7 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-<a href="https://currency-converter-omega-seven.vercel.app/">View</a>
+<a href="https://currency-converter-omega-seven.vercel.app/">Live</a>
         </button>
       </div>
     </div>
@@ -429,8 +429,7 @@ const Section = () => {
           Ai VoiceMaker Clone
         </h6>
         <p className="text-slate-400 leading-normal font-light">
-          We are thrilled to announce the completion of our seed round, securing
-          $2M in investment to fuel product development and market expansion.
+        Half clone of AI VoiceMaker. The purpose of making it is to improve my front-end skills and become familiar with the Next.js framework.
         </p>
       </div>
       <div className="px-4 pb-4 pt-0 mt-2">
@@ -463,7 +462,7 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-        View
+        Live
         </button>
       </div>
     </div>
