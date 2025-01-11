@@ -40,7 +40,7 @@ const Section = () => {
       <div className="grid grid-cols-1 md:grid-cols-1  w-full  items-center justify-centers shadow-md rounded-3xl">
       <div className="relative  flex flex-wrap rounded-3xl border-[1px] border-slate-900  md:max-h-[57vh]  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
         <div className="flex flex-wrap  justify-center text-center align-middle  border-slate-900 rounded-3xl  text-white text-xl  shadow-lg  p-10    md:gap-60 items-center ">
-        <div className=" grid grid-cols-3  gap-8 md:flex md:flex-wrap  md:gap-12 md:m-3 mt-5">
+        <div className=" grid grid-cols-3  gap-8 md:flex md:flex-wrap md:items-center md:justify-center md:gap-14 md:m-3 md:ml-4 mt-5">
         <motion.div
   className="flex flex-col items-center justify-center"
   initial={{ y: 0 }}
@@ -402,7 +402,7 @@ const Section = () => {
           Currency Converter
         </h6>
         <p className="text-slate-400 leading-normal font-light">
-        A Currency Converter Web Application. convert values between currencies with real-time exchange rates from reliable APIs, supporting multiple global currencies.
+        A Currency Converter Web App. convert values between currencies with real-time exchange rates from reliable APIs, supporting multiple global currencies.
         </p>
       </div>
       <div className="px-4 pb-4 pt-0 mt-2">
