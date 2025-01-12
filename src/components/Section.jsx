@@ -384,7 +384,11 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
+<<<<<<< HEAD
            <a href="https://bitts-music-player.vercel.app/">Live</a>
+=======
+          Live
+>>>>>>> 692ddd7e46d10a9ae2382332639bffb9b1b978c4
         </button>
       </div>
     </div>
@@ -430,7 +434,11 @@ const Section = () => {
           Ai VoiceMaker Clone
         </h6>
         <p className="text-slate-400 leading-normal font-light">
+<<<<<<< HEAD
         Half clone of AI VoiceMaker. The purpose of making it is to improve my front-end skills and become familiar with the Next.js framework, using Shadcn UI library.
+=======
+        Half clone of AI VoiceMaker. The purpose of making it is to improve my front-end skills and become familiar with the Next.js framework.
+>>>>>>> 692ddd7e46d10a9ae2382332639bffb9b1b978c4
         </p>
       </div>
       <div className="px-4 pb- pt-0 mt-2">
@@ -463,7 +471,11 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
+<<<<<<< HEAD
         <a href="https://codedocs-theta.vercel.app/">Live</a>
+=======
+        Live
+>>>>>>> 692ddd7e46d10a9ae2382332639bffb9b1b978c4
         </button>
       </div>
     </div>
