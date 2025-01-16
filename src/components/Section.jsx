@@ -417,35 +417,37 @@ const Section = () => {
     </div>
 
 
-    <div className="cursor-pointer group relative  flex flex-col my-6 bg-black md:h-[62vh] shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
+    <div className="cursor-pointer group relative flex flex-col my-6  bg-black shadow-sm md:h-[62vh] border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
       <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl">
         <img
-          className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110 h-full w-full"
-          src={cloneProject}
+          className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110 w-full h-full "
+                src={cloneProject}
           alt="investment-seed-round"
         />
       </div>
       <div className="p-4">
         <h6 className="mb-2 text-slate-200 text-xl font-semibold">
-          Ai VoiceMaker Clone
+        AI VoiceMaker Clone
         </h6>
         <p className="text-slate-400 leading-normal font-light">
         Half clone of AI VoiceMaker. The purpose of making it is to improve my front-end skills and become familiar with the Next.js framework, using Shadcn UI library.
         </p>
       </div>
-      <div className="px-4 pb- pt-0 mt-2">
+      <div className="px-4 pb-4 pt-0 mt-2">
         <button
-          className="rounded-md  bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+          className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-          Live
+<a href="https://currency-converter-omega-seven.vercel.app/">Live</a>
         </button>
       </div>
     </div>
-    <div className="cursor-pointer group relative   flex flex-col my-6 bg-black shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
+
+
+    <div className="cursor-pointer group relative flex flex-col my-6  bg-black shadow-sm md:h-[62vh] border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
       <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl">
         <img
-              className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110 h-full w-full"
+          className="transition-transform duration-500 ease-[cubic-bezier(0.25, 1, 0.5, 1)] transform group-hover:scale-110 w-full h-full "
           src={codedocs}
           alt="investment-seed-round"
         />
@@ -463,10 +465,12 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-        <a href="https://codedocs-theta.vercel.app/">Live</a>
+       <a href="https://codedocs-theta.vercel.app/">Live</a>
         </button>
       </div>
     </div>
+
+    
     </div>
 
 
