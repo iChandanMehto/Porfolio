@@ -26,8 +26,8 @@ const textEffectThree = (delay)=>({
   })
 const Footer = () => {
   return (
-<footer className='w-full m-3'>
-<div className='border-b ml-0 flex justify-center items-center relative m-10  w-full border-neutral-900 md:pb-4 pb-2 lg:mb35'>  </div>
+<footer className='w-full '>
+<div className='border-b  flex justify-center items-center relative my-10   border-neutral-900 md:pb-4 pb-2 lg:mb35'>  </div>
   <div className="flex flex-col items-center align-middle justify-center">
 
 <motion.h4
