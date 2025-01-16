@@ -42,14 +42,9 @@ animate = "visible"
   variants={textEffectTwo(1)}
   initial ="hidden"
   animate = "visible"
-  >mehtochandan78@gmail.com</motion.p>
+  >mehtochandanbusiness@gmail.com</motion.p>
 
- <motion.p
- className="md:mx-2 mb-5 md:mb-0 text-white text-sm max-w-[768px] py-1 md:py-6 mr-5 md:text-xl text-center"
- variants={textEffectThree(0.5)}
-   initial ="hidden"
-  animate = "visible"
- >+91 9650786731</motion.p>
+
 </div>
 
 
