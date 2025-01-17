@@ -1,5 +1,5 @@
 import { motion } from "motion/react"
-import gmailicon from '../assets/imagesTwo/gmailicon.svg'
+// import gmailicon from '../assets/imagesTwo/gmailicon.svg'
 const textEffect = (delay)=>({
   hidden : {y: -50, opacity:0}, 
   visible :{
