@@ -72,7 +72,7 @@ const Article = () => {
               <img
                 key={index}
 
-                className="object-cover w-[40wh] h-[40vh] rounded-2xl "
+                className="object-cover md:w-[40wh] md:h-[40vh] w-[30vh] h-[30vh] rounded-2xl "
                 src={image}
                 alt={`Image ${index}`}
               />

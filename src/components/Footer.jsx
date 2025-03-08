@@ -24,7 +24,7 @@ const textEffectThree = (delay)=>({
       transition:{duriation:0.5, delay:delay},    
   },
   })
-const Footer = () => {
+const Footer =() => {
   return (
 <footer className='w-full '>
 <div className='border-b  flex justify-center items-center relative my-10   border-neutral-900 md:pb-4 pb-2 lg:mb35'>  </div>

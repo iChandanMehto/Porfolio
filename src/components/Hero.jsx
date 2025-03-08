@@ -14,7 +14,7 @@ visible :{
 const Hero = () => {
   return (
     
-    <div className='border-b flex justify-center items-center relative  w-full border-neutral-900 pb-4 lg:mb35'>
+    <div className='border-b flex justify-center items-center relative container   w-full border-neutral-900 pb-4 lg:mb35'>
       
         <div className='flex flex-wrap '>
             <div className='w-full '>
@@ -24,7 +24,7 @@ variants={container(0 )}
 initial ="hidden"
 animate = "visible"
 
-className='md:pb-16 px-4 pb-8 text-slate-200 text-6xl md:text-6xl font-medium tracking-tight lg:mt-10 lg:text-8xl text-center '>Chandan Mehto</motion.h1>
+className='md:pb-16 px-4 pb-8 text-gray-300 text-6xl navClass md:text-6xl font-medium tracking-tight lg:mt-10 lg:text-8xl text-center '>Chandan Mehto</motion.h1>
 <motion.span
 variants={container(0.5 )}
 initial ="hidden"
@@ -35,7 +35,7 @@ Full Stack Developer</motion.span>
 variants={container(1)}
 initial ="hidden"
 animate = "visible"
-className='my-2 text-white max-w-[768px] md:py-6 py-3 px-3 text-lg md:text-2xl text-center font-light  '>{HERO_CONTENT}</motion.p>
+className='my-2 text-white  max-w-[768px] md:py-6 py-3 px-3 text-lg md:text-2xl text-center font-light  '>{HERO_CONTENT}</motion.p>
             </div>
 
             </div>

@@ -24,13 +24,14 @@ import musciweb from '../assets/imagesTwo/Musicweb.png'
 import currconv from '../assets/imagesTwo/currconv.png'
 import cloneProject from '../assets/imagesTwo/Project_Clone.png'
 // import mongodb from '../assets/imagesTwo/mongodb.svg'
+import {Link , NavLink} from "react-router-dom"
 
 
 
 const Section = () => {
   return (
     <>
-  <section className="w-full">
+  <section className="w-full ">
   <div className='  m-1 md:m-2 p-1 md:p-3 w-full flex justify-start text-center  align-middle  '>
   <h2  className='bg-gradient-to-r from-gray-100 via-slate-500 to-gray-600 bg-clip-text text-center  m-3 text-5xl tracking-tight text-transparent p-3' >
             Tools & Tech Stack
@@ -39,7 +40,7 @@ const Section = () => {
   <div className=" flex  flex-row justify-center items-center md:p-10 w-full   font-style">
 
       <div className="grid grid-cols-1 md:grid-cols-1  w-full  items-center justify-centers shadow-md rounded-3xl">
-      <div className="relative  flex flex-wrap rounded-3xl border-[1px] border-slate-900  md::h-h-fit  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+      <div className="relative  flex flex-wrap rounded-3xl border-[1px] border-slate-900  md:h-h-fit  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
         <div className="flex flex-wrap  justify-center text-center align-middle  border-slate-900 rounded-3xl  text-white text-xl  shadow-lg  p-10    md:gap-60 items-center ">
         <div className=" grid grid-cols-3  gap-8 md:flex md:flex-wrap md:items-center md:justify-center md:gap-14 md:m-3 md:ml-4 mt-5">
         <motion.div
@@ -361,7 +362,9 @@ const Section = () => {
            Projects
           </h2>
       </div>
+  
     <div className="flex  flex-col  md:flex-row lg:flex-row items-center justify-center  gap-3 md:gap-7 px-4" >
+
     <div className="cursor-pointer md:h-[62vh] group relative flex flex-col my-3  md:my-6 bg-black shadow-sm border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
       <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl ">
         <img
@@ -388,6 +391,8 @@ const Section = () => {
         </button>
       </div>
     </div>
+   
+ 
 
 
     <div className="cursor-pointer group relative flex flex-col my-6  bg-black shadow-sm md:h-[62vh] border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
@@ -438,7 +443,7 @@ const Section = () => {
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
         >
-<a href="https://currency-converter-omega-seven.vercel.app/">Live</a>
+<a href="https://assignment-clone-sigma.vercel.app/">Live</a>
         </button>
       </div>
     </div>
@@ -461,6 +466,7 @@ const Section = () => {
         </p>
       </div>
       <div className="px-4 pb-4 pt-0 mt-2">
+        
         <button
           className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
           type="button"
