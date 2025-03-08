@@ -35,7 +35,7 @@ Full Stack Developer</motion.span>
 variants={container(1)}
 initial ="hidden"
 animate = "visible"
-className='my-2 text-white  max-w-[768px] md:py-6 py-3 px-3 text-lg md:text-2xl text-center font-light  '>{HERO_CONTENT}</motion.p>
+className='my-2 text-white  max-w-[768px] md:py-6 py-3 px-3 text-sm md:text-2xl text-center font-light  '>{HERO_CONTENT}</motion.p>
             </div>
 
             </div>
