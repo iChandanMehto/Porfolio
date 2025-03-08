@@ -20,9 +20,19 @@ const Navbar = () => {
       {/* <hr className="border-t-2 border-slate-800 w-full " /> */}
       <div>
 
+<<<<<<< HEAD
       </div>
     </nav>
   );
 };
+=======
+<a href="https://linkedin.com/in/chandanmehto"><FaLinkedin/></a>
+<a href="https://x.com/ichandanmehto"><FaSquareXTwitter/></a>
+    </div>
+     
+  </nav>
+  )
+}
+>>>>>>> 219a35403d1c01038c92405862856b55dfa17538
 
 export default Navbar;
