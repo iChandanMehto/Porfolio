@@ -69,7 +69,7 @@ className='my-2 text-white  max-w-[768px] md:py-6 py-3 px-3 text-base md:text-2x
         {/* <a href="https://x.com/ichandanmehto" target="_blank" rel="noopener noreferrer">
         <FaDiscord />
         </a> */}
-        <a href="https://x.com/ichandanmehto" target="_blank" rel="noopener noreferrer">
+        <a href="https://leetcode.com/u/mehtochandan" target="_blank" rel="noopener noreferrer">
         <SiLeetcode />
         </a>
       </div>
