@@ -1,5 +1,5 @@
 import { motion, } from "framer-motion";
-import madara from "../assets/imagesTwo/madara.jpeg";
+// import madara from "../assets/imagesTwo/madara.jpeg";
 import pain from "../assets/imagesTwo/pain.jpeg";
 import itachi from "../assets/imagesTwo/itachi.jpeg";
 import shakura from "../assets/imagesTwo/shakura.jpeg";
@@ -10,15 +10,19 @@ import hinatatwo from "../assets/imagesTwo/hinatatwo.jpeg";
 import leaf from "../assets/imagesTwo/leaf.jpeg";
 import itachitwo from '../assets/imagesTwo/itachitwo.jpg';
 import itachithree from '../assets/imagesTwo/itachithree.jpg'
+import rein from '../assets/imagesTwo/rein.jpeg';
+import baddie  from '../assets/imagesTwo/baddie.jpeg';
 // import useMeasure from "react-use-measure";
 // import { useEffect } from "react";
 
 const images = [
-  madara,
-  pain,
+  // madara,
+  // pain,
   itachi,
   shakura,
   hinata,
+  rein,
+  baddie,
   paintwo,
   hinatatwo,
   kakashiguy,

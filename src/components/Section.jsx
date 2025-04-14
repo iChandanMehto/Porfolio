@@ -421,7 +421,7 @@ const Section = () => {
       </div>
     </div>
 
-
+   
     <div className="cursor-pointer group relative flex flex-col my-6  bg-black shadow-sm md:h-[62vh] border border-slate-900 rounded-2xl w-full md:w-96 hover:shadow-lg transition-shadow duration-300">
       <div className="relative h-56 m-3 overflow-hidden text-white rounded-xl">
         <img
