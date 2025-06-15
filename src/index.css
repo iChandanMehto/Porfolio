@@ -52,3 +52,32 @@ body{
 :root{
     font-family: "Inter", sans-serif;
 }
+
+.scroller {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+}
+
+.scroller-inner {
+  width: max-content;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.scroller-content {
+  width: max-content;
+  will-change: transform;
+}
