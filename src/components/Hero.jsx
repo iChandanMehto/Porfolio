@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { HERO_CONTENT } from "../constants";
+import { HERO_CONTENT, HERO_CONTENTTWO } from "../constants";
 import gsap from "gsap";
 
 const Hero = () => {  const heroRef = useRef(null);
@@ -59,26 +59,36 @@ const Hero = () => {  const heroRef = useRef(null);
       ref={heroRef}
       className="border-b flex justify-center items-start relative container md:my-14  my-10 min-w-full  border-neutral-900 pb-8"
     >
-      <div className="flex flex-wrap w-full justify-start">
+      <div className="flex flex-wrap w-full justify-center">
         <div className="w-full">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center text-start">
             <h1
               ref={titleRef}
-              className="md:py-8 px-4 pb-8 text-gray-300  text-6xl navClass  md:text-2xl font-medium tracking-tight lg:mt-10 lg:text-5xl sm:text-start text-start"
+              className="md:py-4 px-4 pb-8 text-gray-300  text-6xl navClass  items-start md:text-2xl font-medium tracking-tight lg:mt-10 lg:text-5xl sm:text-start text-start"
             >
               CHANDAN MEHTO
             </h1>
+                     <p
+              ref={descRef}
+              className="my-0  text-slate-200 max-w-[768px] md:py-2 py-3 px-4 text-base md:text-xl text-end sm:text-start font-light"
+            >
+              {HERO_CONTENTTWO}
+            </p>
             <span
               ref={subtitleRef}
               className="bg-gradient-to-r from-gray-100 via-slate-500 to-gray-600 bg-clip-text sm:text-start text-start px-4 sm:text-4xl text-4xl tracking-tight text-transparent"
             >
               Front End Developer / Student
-            </span>            <p
+            </span>      
+        
+            
+                  <p
               ref={descRef}
-              className="my-2 text-slate-200 max-w-[768px] md:py-6 py-3 px-4 text-base md:text-2xl text-start sm:text-start font-light"
+              className="my-2 text-slate-200 max-w-[768px] md:py-6 py-3 px-4 text-base md:text-lg text-start sm:text-start font-light"
             >
-              {HERO_CONTENT}
+    Hey there, I&apos;m Chandan , 20 year old front end developer based in India. Expanding my knowledge in the <span className="bg-slate-500 text-black">MERN Stack (MongoDB, Express.js, React, Node.js). </span>Focusing on mastering advanced JavaScript concepts. and modern web development practices. Building dynamic web applications and solving complex problems. Dedicated to learning and growing in full-stack development
             </p>
+                 
           </div>
         </div>
       </div>
