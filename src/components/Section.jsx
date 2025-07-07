@@ -19,7 +19,8 @@ import npm  from '../assets/imagesTwo/NPM.svg'
 import postman from '../assets/imagesTwo/postman.svg';
 import vite from '../assets/imagesTwo/vite.svg';
 import nexjs from '../assets/imagesTwo/Nextjs.svg'
-import Projects from '../ui/Projects'
+import Projects from '../ui/Projects';
+import BackEndProject from '../ui/BackEndProject.jsx';
 
 // import mongodb from '../assets/imagesTwo/mongodb.svg'
 
@@ -355,6 +356,7 @@ const Section = () => {
       </div>
     </div>
 <Projects/>
+<BackEndProject/>
 
   </section>
     </>

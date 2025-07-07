@@ -61,12 +61,15 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-2 md:py-3">
         {/* Name & Status */}
         <div className="flex items-center gap-2 sm:gap-4 select-none">
-          <span className="text-lg sm:text-xl font-medium tracking-widest text-white truncate">
-            Chandan Mehto
+          <span className="text-lg sm:text-xl font-medium tracking-widest flex flex-row gap-3 text-slate-400 truncate">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-slate-400" strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-locate-fixed-icon lucide-locate-fixed"><line x1="2" x2="5" y1="12" y2="12"/><line x1="19" x2="22" y1="12" y2="12"/><line x1="12" x2="12" y1="2" y2="5"/><line x1="12" x2="12" y1="19" y2="22"/><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3"/></svg>
+
+            
+<p className='text-sm  text-white'>DELHI, INDIA</p>
           </span>
-          <span className="hidden sm:flex px-3 py-1.5 rounded-md bg-white/10 text-gray-200 text-sm items-center gap-2">
-            <span className="w-2 h-2 bg-green-400 rounded-full inline-block" />
-            <span className="font-medium">Currently available</span>
+          <span className="hidden sm:flex px-3 py-2 border  border-slate-800 rounded-md bg-white/10 text-gray-200 text-sm items-center gap-2">
+         <span className="w-2 h-2 bg-green-400 rounded-full inline-block animate-[pulse_2s_ease-in-out_infinite] shadow-[0_0_8px_2px_rgba(74,222,128,0.6)] hover:bg-emerald-400 hover:shadow-[0_0_12px_3px_rgba(52,211,153,0.7)] transition-all duration-300" />
+            <span className="font-medium">Actively seeking developer opportunities </span>
           </span>
         </div>
 
