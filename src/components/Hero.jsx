@@ -67,7 +67,7 @@ const Hero = () => {
               Front End Developer / Student
             </span>
 
-            <p className="my-2 text-slate-200 max-w-[768px] md:py-6 py-3 px-4 text-base md:text-lg text-start font-light">
+            <p className="my-2 text-slate-200 max-w-[768px] md:py-6 py-3 px-4 text-base md:text-lg text-center font-light">
               Hey there, I&apos;m Chandan, a 20-year-old front-end developer based in India. Expanding my knowledge in the{" "}
                 <span className="text-black bg-slate-500">
                   MERN Stack (MongoDB, Express.js, React, Node.js)

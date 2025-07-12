@@ -4,6 +4,7 @@ import { FaNodeJs } from 'react-icons/fa'
 import { SiExpress, SiMongodb, SiPostman, SiTypescript } from 'react-icons/si'
 import { RiNextjsFill } from 'react-icons/ri'
 import { BiLogoPostgresql } from 'react-icons/bi'
+import { FiLogOut } from "react-icons/fi";
 
 
 const BackEndProject = () => {
@@ -40,19 +41,17 @@ className='hover:text-[#FF6C37] transition-colors duration-300'
               Features include user authentication, playlist management, and secure data handling.
             </p>
           </div>
-          <div className="px-4 pb-4 pt-0 mt-2 flex flex-row gap-3 items-center">
+          <div className="px-4 pb-4 pt-0 mt-2 flex flex-row gap-3 items-center justify-start">
             <a
               href="https://github.com/iChandanMehto/MusicPlayer_Backend"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             >
-              Live
-              
-            </a>
-            <FiGithub 
-            className='text-xl'
+                          <FiLogOut
+            className='text-xl right-0'
             />
+            </a>
           </div>
         </div>
 
@@ -79,11 +78,10 @@ A backend project in progress, building using Next.js 15 (App Router) and TypeSc
               rel="noopener noreferrer"
               className="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             >
-              Live
-            </a>
-             <FiGithub 
-            className='text-xl'
+                      <FiLogOut
+            className='text-xl right-0'
             />
+            </a>
           </div>
         </div>
       </div>
