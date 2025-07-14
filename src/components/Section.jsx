@@ -30,12 +30,12 @@ const Section = () => {
   return (
     <>
   <section className="w-full ">
-  <div className='  m-1 md:m-2 p-1 md:p-3 w-full flex justify-start text-center  align-middle  '>
-  <h2  className='bg-gradient-to-r from-gray-100 via-slate-500 to-gray-600 bg-clip-text text-center  m-3 text-5xl tracking-tight text-transparent p-3' >
+  <div className='   p-1 md:p-3 w-full flex justify-start text-center  align-middle  '>
+  <h2  className='bg-gradient-to-r from-gray-100 via-slate-500 w-2/3 py-3  to-gray-600 bg-clip-text text-start  my-3 mx-2 md:text-5xl text-4xl tracking-tight text-transparent ' >
             Tools & Tech Stack
           </h2>
       </div>
-  <div className=" flex  flex-row justify-center items-center md:p-10 w-full   font-style">
+  <div className=" flex  flex-row justify-center items-center md:p-10 w-full p-2  font-style">
 
       <div className="grid grid-cols-1 md:grid-cols-1  w-full  items-center justify-centers shadow-md rounded-3xl">
       <div className="relative  flex flex-wrap rounded-3xl border-[1px] border-slate-900  md:h-h-fit  top-0 z-[-2]  bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">

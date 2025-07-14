@@ -48,14 +48,14 @@ const Hero = () => {
   return (
     <div
       ref={heroRef}
-      className="border-b flex justify-center items-start relative container md:my-14 my-10 min-w-full border-neutral-900 pb-8"
+      className="border-b flex justify-center items-start relative container md:my-14 my-4 min-w-full border-neutral-900 py-8"
     >
       <div className="flex flex-wrap w-full justify-center">
         <div className="w-full">
           <div className="flex flex-col items-center text-start">
             <h1
               ref={titleRef}
-              className="md:py-4 px-4 pb-8 text-gray-300 text-6xl navClass items-start md:text-2xl font-medium tracking-tight lg:mt-10 lg:text-5xl sm:text-start text-start"
+              className="md:py-4 px-4 py-8 text-gray-300 text-6xl navClass items-start md:text-2xl font-medium tracking-tight lg:mt-10 lg:text-5xl sm:text-start text-start"
             >
               CHANDAN MEHTO
             </h1>
@@ -67,7 +67,7 @@ const Hero = () => {
               Front End Developer / Student
             </span>
 
-            <p className="my-2 text-slate-200 max-w-[768px] md:py-6 py-3 px-4 text-base md:text-lg text-center font-light">
+            <p className="my-2 text-slate-200 max-w-[768px] md:py-6 py-3 px-4 text-base md:text-lg md:text-center text-start  font-light">
               Hey there, I&apos;m Chandan, a 20-year-old front-end developer based in India. Expanding my knowledge in the{" "}
                 <span className="text-black bg-slate-500">
                   MERN Stack (MongoDB, Express.js, React, Node.js)

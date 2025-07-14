@@ -38,7 +38,7 @@ const Article = () => {
     // Create seamless animation
     const tween = gsap.to(el, {
       x: `-=${el.offsetWidth / 2}`,
-      duration: 20,
+      duration: 30,
       ease: "none",
       repeat: -1,
       onUpdate: () => {
@@ -65,8 +65,8 @@ const Article = () => {
 
   return (
     <article>
-      <div className="m-1 p-1 md:p-3 w-full flex md:justify-start justify-center text-center align-middle">
-        <h2 className="bg-gradient-to-r from-gray-100 via-slate-500 to-gray-600 bg-clip-text text-center m-3 text-3xl md:text-5xl tracking-tight text-transparent md:p-3">
+      <div className="m-1 p-1 md:p-3 w-full flex justify-start text-center align-middle">
+        <h2 className="bg-gradient-to-r  from-gray-100 via-slate-500 w-2/3 to-gray-600 py-3 bg-clip-text text-start  my-3 mx-2 md:text-5xl text-4xl tracking-tight text-transparent">
           Random Images
         </h2>
       </div>
